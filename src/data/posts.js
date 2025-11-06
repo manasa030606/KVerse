@@ -1,0 +1,92 @@
+// src/data/posts.js
+// Mock Posts Data
+
+export const POSTS_DATA = [
+    {
+      id: 1,
+      author: {
+        id: 2,
+        username: 'bts_army_forever',
+        displayName: 'Sarah',
+        profilePic: '👩',
+      },
+      content: "Just finished watching the new MV and I'm OBSESSED! 💜 The cinematography is absolutely stunning! What's your favorite scene?",
+      mediaType: 'image',
+      mediaEmoji: '🎬',
+      likes: 234,
+      comments: 45,
+      timestamp: '2 hours ago',
+      tags: ['BTS', 'MusicVideo'],
+      likedByUser: false,
+    },
+    {
+      id: 2,
+      author: {
+        id: 3,
+        username: 'blackpink_blink',
+        displayName: 'Emma',
+        profilePic: '👧',
+      },
+      content: 'Ready for the comeback! My outfit for the concert is finally ready 💗🖤',
+      mediaType: 'image',
+      mediaEmoji: '👗',
+      likes: 189,
+      comments: 28,
+      timestamp: '5 hours ago',
+      tags: ['BLACKPINK', 'Concert'],
+      likedByUser: false,
+    },
+    {
+      id: 3,
+      author: {
+        id: 4,
+        username: 'kpop_dancer',
+        displayName: 'Mike',
+        profilePic: '👨',
+      },
+      content: 'Been practicing this choreography for weeks! Finally nailed it! Check out my challenge submission 🔥',
+      mediaType: 'video',
+      mediaEmoji: '💃',
+      likes: 456,
+      comments: 67,
+      timestamp: '1 day ago',
+      tags: ['Dance', 'Challenge'],
+      likedByUser: false,
+    },
+    {
+      id: 4,
+      author: {
+        id: 5,
+        username: 'twice_stan',
+        displayName: 'Lisa',
+        profilePic: '👱‍♀️',
+      },
+      content: 'Who else is counting down to the concert? Only 5 days left! 🎤✨',
+      mediaType: null,
+      mediaEmoji: null,
+      likes: 312,
+      comments: 89,
+      timestamp: '2 days ago',
+      tags: ['TWICE', 'Concert', 'Excited'],
+      likedByUser: false,
+    },
+    {
+      id: 5,
+      author: {
+        id: 6,
+        username: 'exo_lover',
+        displayName: 'Daniel',
+        profilePic: '👦',
+      },
+      content: 'Just got my album collection organized! So satisfying to see them all together 📀💿',
+      mediaType: 'image',
+      mediaEmoji: '💿',
+      likes: 178,
+      comments: 34,
+      timestamp: '3 days ago',
+      tags: ['EXO', 'Collection', 'Albums'],
+      likedByUser: false,
+    },
+  ];
+  
+  export default POSTS_DATA;
